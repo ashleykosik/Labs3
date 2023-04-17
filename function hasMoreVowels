@@ -1,0 +1,22 @@
+function hasMoreVowels(word) {
+   let vowels = '';
+   let consonants = '';
+   for (const letter of word) { 
+       if (letter == 'a' ||
+           letter == 'e' ||
+           letter == 'i' ||
+           letter == 'o' ||
+           letter == 'u'
+          ) {
+           vowels += letter;  
+       } else {
+           consonants += letter; 
+       }
+   }
+   if (vowels.length > consonants.length) {
+    console.log(true)
+   } else {
+    console.log(false)
+   }
+}
+// const hasMoreVowels = (word) => word.match(/[aeiou]/gi).length > Math.floor(word.length/2)
