@@ -1,0 +1,164 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+    font-family: D-DIN-Bold,Arial,Verdana,sans-serif;
+    margin: 25px;
+    color: white;
+}
+
+
+header {
+    position: fixed;
+    margin: 25px 50px;
+    color: white;
+}
+
+.nav-item {
+    font-family: D-DIN-Bold,Arial,Verdana,sans-serif;
+    font-size: 14px; 
+    font-weight: 400;
+    display: inline-block;
+    margin-right: 20px;
+
+}
+
+.logo {
+   height: 20px;
+   margin-bottom: 10px;
+}
+
+.one {
+    background-image: url('https://sxcontent9668.azureedge.us/cms-assets/assets/STARSHIP_CAROUSEL_DESKTOP_Sunset_Full_Stack_031522_DJI_0066_544ff6b208.jpg');
+    background-size:cover;
+    background-position: top;
+    background-repeat: none;
+    height: 629px;
+    width: 100%;
+    font-family: D-DIN-Bold,Arial,Verdana,sans-serif;
+}
+
+.text-box {
+    padding-left: 50px;
+    padding-bottom: 5px;
+    position:relative;
+    top: 70%;
+    color: white;
+
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 48px;
+    font-family: D-DIN-Bold,Arial,Verdana,sans-serif;
+}
+
+h2 {
+    font-weight: 50;
+    font-size: 16px;
+    font-family: D-DIN-Medium,Arial,Verdana,sans-serif;
+}
+
+.white-box {
+    border: snow solid;
+    display: inline-block;
+    padding: 15px 50px;
+    margin: 20px 50px;
+    font-size: 14px;
+}
+/**/
+
+.two {
+    background-image: url('https://sxcontent9668.azureedge.us/cms-assets/assets/Homepage_Starlink_SLC_40_Desktop_cac54ee8bd.jpg');   
+    background-size:cover;
+    background-position: top;
+    background-repeat: none;
+    height: 629px;
+    width: 100%;
+    font-family: D-DIN-Bold,Arial,Verdana,sans-serif;
+}
+
+.three {
+    background-image: url('https://sxcontent9668.azureedge.us/cms-assets/assets/HOMEPAGE_CRS_27_Desktop_fcc63e2c6c.png');   
+    background-size:cover;
+    background-position: top;
+    background-repeat: none;
+    height: 629px;
+    width: 100%;
+    font-family: D-DIN-Bold,Arial,Verdana,sans-serif;
+}
+.four {
+    background-image: url('https://sxcontent9668.azureedge.us/cms-assets/assets/Trans_7_OS_56_0469_Desktop_e7dc1ccff2.jpg');
+    background-size: cover;
+    background-position: top;
+    background-repeat: none;
+    height: 629px;
+    width: 100%;
+    font-family: D-DIN-Bold,Arial,Verdana,sans-serif;
+    padding-bottom: 60px;
+    margin: 0;
+}
+
+
+ .five {
+    background-image: url('https://sxcontent9668.azureedge.us/cms-assets/assets/Homepage_Desktop_5ebdeb0c6c.webp');
+    background-size: cover;
+    background-position: top;
+    background-repeat: none;
+    height: 629px;
+    width: 100%;
+    font-family: D-DIN-Bold,Arial,Verdana,sans-serif;
+    position: relative;
+    padding-bottom: 100px;
+    
+}
+
+.footer {
+    background-color: black;
+    color:white;
+    text-align: center;
+    padding: 25px;
+    height: 50px;
+}
